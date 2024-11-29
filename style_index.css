@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    //background-color: cyan;
+    background-image: url('/Images/d.jpg');
+    color: rgb(0, 0, 255);
+}
+h1 {
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: green;
+    margin-bottom: 20px;
+    background-color: lime;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+.menu {
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+ul {
+    text-align: left;
+}
+ul li {
+    width: 120px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover, ul li a.active {
+    background-color: orange;
+    border-radius: 100px;
+    color: #000;
+}
+#head_line {
+    height: 50px;
+    background-color: aquamarine;
+    line-height: 50px;
+}
+#head_line_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: blue;
+    font-style: italic;
+}
+img {
+    height: 300px;
+    float: right;
+}
+.systems p {
+    font-family: 'Gelasio';
+    margin-left: 100px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 50px;
+}
+.systems a {
+    text-decoration: none;
+}
+p.font-effect-fire {
+    text-shadow: 400px;
+}
+.container {
+    width: 100%;
+    clear: both;
+    background-color: lemonchiffon;
+}
+#div_text {
+    font-family: 'Rokkitt';
+    width: 40%;
+    height: 20vh;
+    margin-left: 5%;
+    display: inline-block;
+    box-shadow: 5px 5px 10px orange;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: left;
+    transition: 3ms ease-in-out;
+}
+#div_text:hover {
+   background-color: black;
+   color: #fff;
+}
+#div_text p {
+    text-align: left;
+    font-size: 15px;
+}
+.notice {
+    font-family: 'Gelasio';
+    line-height: 50px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    clear: both;
+}
+.copyright {
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: serif;
+    background-color: navy;
+    color: #fff;
+}
+
